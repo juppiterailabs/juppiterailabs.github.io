@@ -1,5 +1,5 @@
 // frontend link redirects
-const baseURL = "http://localhost:5005";
+const baseURL = "https://juppiterailabs.github.io" //"http://localhost:5005";
 const newAccountCreatorURL = "/newAccountCreator.html";
 const viewAllAccountsURL = "/viewAllAccounts.html";
 const dashboardURL = "/index.html";
@@ -47,7 +47,7 @@ function gotoProjectView(event, projectName) {
 }
 
 async function postNewProjectInDatabase(body) {
-  const response = await fetch("http://localhost:5000/api/v1/project/create", {
+  const response = await fetch(baseURL+"/api/v1/project/create", {
     method: "POST",
     body: JSON.stringify(body),
   });

@@ -1,5 +1,5 @@
 // frontend link redirects
-const baseURL = "http://localhost:5005";
+const baseURL = "https://juppiterailabs.github.io" //"http://localhost:5005";
 const newAccountCreatorURL = "/newAccountCreator.html";
 const viewAllAccountsURL = "/viewAllAccounts.html";
 const dashboardURL = "/index.html";
